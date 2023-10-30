@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap');
+
+:root{
+  --mainFont:'Encode Sans Expanded', sans-serif;
+  --mainColor : #2d3e4f;
+  --mainColorDarker : #1b252f ;
+  --contentColor : #2ebb9e ;
+}
+
+.mainColor{
+  background-color: var(--mainColor);
+}
+.mainColorDarker{
+  background-color: var(--mainColorDarker);
+}
+.contentColor{
+  background-color: var(--contentColor) !important;
+}
+.mainFont{
+  font-family: var(--mainFont);
+}
+.nav-text{
+  color: white !important;
+  font-weight: 800;
+}
+.textMain{
+  color: var(--mainColor);
+
+}
+.btn{
+  color: white !important;
+}
+.textcContent{
+  color: var(--contentColor) !important;
+}
